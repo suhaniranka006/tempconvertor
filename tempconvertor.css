@@ -1,0 +1,59 @@
+body{
+    background-image: url(weather.jpg);
+    background-size: cover;
+ }
+  
+
+.center{
+    
+    margin-top: 200px;
+    margin-left: 400px;
+}
+#convert {
+    background-color: rgb(142, 142, 192);
+  }
+  #convert:hover {
+    background-color: rgb(144, 144, 162);
+  }
+  h1 {
+    font-family: sans-serif;
+    color: #e1e9ef;
+  }
+  input {
+    display: block;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 2em;
+    color: rgb(60, 60, 106);
+    font-family: cursive, sans-serif;
+    border-radius: 50px;
+    background-color: #a1a0a0;
+  }
+  ::-webkit-input-placeholder {
+     color: #ccc;
+  }
+  :-moz-placeholder { /* Firefox 18- */
+     color: #ccc;  
+  }
+  ::-moz-placeholder {  /* Firefox 19+ */
+     color: #ccc;  
+  }
+  :-ms-input-placeholder {  
+     color: #ccc;  
+  }
+  button {
+    padding: 10px;
+    font-size: 1.2em;
+    border-radius: 10px;
+    color: #545454;
+    margin-left: 70px;
+  }
+
+  #clear{
+    background-color:rgb(174, 174, 234) ;
+    
+  }
+  #clear:hover{
+    background-color: rgb(140, 140, 155);
+  }
+  
